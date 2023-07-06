@@ -1,0 +1,155 @@
+addition... + - * / % modular //
+py / python --version x64
+
+lololol
+
+strings: 
+	v = 'hallo Welt'
+	v = "hallo Welt"
+	v = "wie geht's"
+	
+
+array: 
+	v = [0,1,2,3,4,5]
+	v[3]
+		dritte Stelle im array
+	v[0:3]
+		range von integer 0 bis 3
+	v = [x] + [y]
+
+print:
+	print()
+	print('')
+
+
+
+
+
+
+
+CMD output:
+
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 20%5
+0
+>>> 20\5
+  File "<stdin>", line 1
+    20\5
+       ^
+SyntaxError: unexpected character after line continuation character
+>>> 20//5
+4
+>>> 2 + 2
+4
+>>> 4 + 4
+8
+>>> 4 * 4
+16
+>>> 28%4
+0
+>>> 29%4
+1
+>>> 30%4
+2
+>>> 31%4
+3
+>>> 32%4
+0
+>>> 33//4
+8
+>>> v = ''wie geht's''
+  File "<stdin>", line 1
+    v = ''wie geht's''
+          ^^^
+SyntaxError: invalid syntax
+>>> v = ""Zitat"
+  File "<stdin>", line 1
+    v = ""Zitat"
+               ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> v = ""Zitat""
+  File "<stdin>", line 1
+    v = ""Zitat""
+          ^^^^^
+SyntaxError: invalid syntax
+>>> v = """Zitat"""
+>>> v
+'Zitat'
+>>> v = '"Zitat"'
+>>> v
+'"Zitat"'
+>>> v = 'wie geht's'
+  File "<stdin>", line 1
+    v = 'wie geht's'
+                   ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> v = [0,1,2,3,4,5]
+>>> v
+[0, 1, 2, 3, 4, 5]
+>>> v[3]
+3
+>>> v[0:3]
+[0, 1, 2]
+>>> v[0:-2]
+[0, 1, 2, 3]
+>>> v[-2:0]
+[]
+>>> x = ['TestOne','TestTwo']
+>>> x
+['TestOne', 'TestTwo']
+>>> v + y
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'y' is not defined
+>>> v + x
+[0, 1, 2, 3, 4, 5, 'TestOne', 'TestTwo']
+>>> y = [v] + [x]
+>>> y
+[[0, 1, 2, 3, 4, 5], ['TestOne', 'TestTwo']]
+>>> print('TestOne')
+TestOne
+>>> print(""Zitat"")
+  File "<stdin>", line 1
+    print(""Zitat"")
+          ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print("""Zitat""")
+Zitat
+>>> print('"Zitat"')
+"Zitat"
+>>> print("""Hdawhdahw)
+... wdadawdaw""")
+Hdawhdahw)
+wdadawdaw
+>>> print("""Hdawhdahw
+... print("""Hdawhdahw
+  File "<stdin>", line 1
+    print("""Hdawhdahw
+          ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print("""Hdawhdahw"""
+... dawdawdwa)
+  File "<stdin>", line 1
+    print("""Hdawhdahw"""
+          ^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> print("""Hdawhdahw"""
+... wdawdaw""")
+  File "<stdin>", line 2
+    wdawdaw""")
+           ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 2)
+>>> print("C:/NameUser")
+C:/NameUser
+>>> print("C:\NameUser")
+  File "<stdin>", line 1
+    print("C:\NameUser")
+                       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: malformed \N character escape
+>>> print("C:\nameUser")
+C:
+ameUser
+>>> print(r"C:\nameUser")
+C:\nameUser
+>>>
