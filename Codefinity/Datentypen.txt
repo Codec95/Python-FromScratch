@@ -1,0 +1,23 @@
+
+
+Text Type: str;
+
+Numeric Types: int, float, complex;
+
+Sequence Types: list, tuple, range;
+
+Mapping Type: dict;
+
+Set Types: set, frozenset;
+
+Boolean Type: bool;
+
+Binary Types: bytes, bytearray, memoryview;
+
+
+
+int - refers to integer numbers (i.e., 3, -1, 1003, etc.);
+
+float - refers to real numbers (i.e., 2.8, 3.333, 3.0, etc.);
+
+complex - refers to complex numbers (i.e., 3+2j);
