@@ -1,0 +1,48 @@
+
+# Dictionary 
+countries_dict = {'USA': (9629091, 331002651), 'Canada': (9984670, 37742154), 
+            'Germany': (357114, 83783942)}
+
+# Information about Canada
+print(countries_dict["Canada"])
+
+
+# Create dictionary
+people = {'Alex': (23, 178), 'Noah': (34, 189), 'Peter': (29, 175)}
+
+# Print information about Alex
+print(people['Alex'])
+
+
+
+len(d) - returns the length of dictionary d (number of pairs key:value)
+
+d.copy() - returns a copy of dictionary d
+
+d.items() - returns all pairs (key, value) in dictionary d
+
+d.keys() - returns all keys of dictionary d
+
+d.values() - returns all values of dictionary d
+
+
+
+# Initial dictionary
+countries_dict = {'USA': (9629091, 331002651), 'Canada': (9984670, 37742154), 
+            'Germany': (357114, 83783942)}
+
+# Update dictionary with two countries
+countries_dict["Brazil"] = (8515767, 212559417)
+countries_dict["India"] = (3166391, 1380004385)
+print(countries_dict)
+
+
+# Initial dictionary
+people = {'Alex': (23, 178), 'Noah': (34, 189), 'Peter': (29, 175)}
+
+# Add new people to the dictionary
+people['John'] = (41, 185)
+people['Michelle'] = (35, 165)
+
+# Print the dictionary
+print(people)
