@@ -96,6 +96,8 @@ def converter_all(var2):
 		print(round(var2, 2), 'is float // rounded "2 digits"')
 		if round(var2, 0) % 2 == 0:
 			print(round(var2, 2), 'converted to int', int(var2), 'also is an even number!')
+		else:
+			print(round(var2, 2), 'converted to int', int(var2), 'also is an odd number!')
 		print(round(var2, 2), 'converted to complex', complex(var2))
 		return(int(var2))
 
@@ -110,6 +112,7 @@ print("###DONE!###")
 
 sec = 24
 print(type(sec))
+
 
 
 	

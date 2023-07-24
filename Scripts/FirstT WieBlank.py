@@ -1,19 +1,16 @@
-BufferExtend = 
-z = False
+x = 18
 
-if BufferExtend:
-	print("BufferExtend is enabled")
-elif BufferExtend:
-	print("BufferExtend not set")
+while x <= 42:
+	print(x)
+	x = x + 2
+		for x%8 == 2:
+			continue
+		print ("Test loop")
 
+print("done")
 
-else:
-	print("BufferExtend is disabled")
-	print("C:\\UserDirectory\n^list dir")
-
-print("first script run")
 print("""Runloop
-Runloop""")
+in two ways""")
 
-v="Irgendein Runloop"
-len(v)
+v = "lengthrun"
+(len)=v
