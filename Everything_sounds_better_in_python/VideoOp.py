@@ -1,18 +1,28 @@
-# Operators (Arithmetic, Assignment, Comparison, Logical, usw..)
+# Operators (Arithmetic, Assignment, Comparison, Logical, usw..) by ID' (Codec95)
 
 
 #1 Arithmetic (+, -, /, *, //, %, **)
 
-#1 Assignment (=, +=, -=, /=, *=, %=, //=, **=)
+Health = 5
+Health = Health ** 2
+print(Health)
 
-#2 Comparison (==, !=, >, >=, <, <=)
+#2 Assignment (=, +=, -=, /=, *=, %=, //=, **=)
 
-#2 Logical (not, or, and)
+Health = 50
+Health += 20
+print(Health)
+
+#3 Comparison (==, !=, >, >=, <, <=)
+
+Lives = 4
+print(Health == Lives)
+print(40 / 10 < 4)
+
+#4 Logical (not, or, and)
+
+Lives = 1
+Health = 5
+print(Lives == 0 or Health == 0)
 
 # usw.. (if else, is, is not, in, not in, ...)
-
-
-#1
-
-#2
-
