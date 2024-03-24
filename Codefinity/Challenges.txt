@@ -1,8 +1,0 @@
-
-Task
-
-The distance between San Francisco and New York is about 4677.4 km (by road). This value is saved in the variable dist_km. Your tasks are:
-
-Convert the distance to miles by dividing the distance in kilometers (dist_km) by 1.609 (approximately). Save the result in the variable dist_mi.
-Output the value of dist_mi.
-Convert dist_mi to an integer and output this value.
